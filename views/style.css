@@ -2,6 +2,8 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
   background-image: url(skyvibe.jpg);
+  background-position: center;
+  background-attachment: scroll;
  }
  .clock {
    width: 5rem;
@@ -30,7 +32,9 @@ html {
  }
 
 .keys {
+  flex-wrap: wrap;
   display: inline-flex;
+  margin-left: 100px;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
